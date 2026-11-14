@@ -4,9 +4,13 @@
 
 ## 下载
 
-[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.1.1/WPK-Viewer-0.1.1-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.1.1)
+[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.1.2/WPK-Viewer-0.1.2-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.1.1)
 
 最低 Android 8.0，请保持 Android System WebView 已更新。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.1.2 更新
+
+模型打开后自动待机，入场动作结束后自动切换，点击动作结束后恢复待机。清理停在最后一帧的高层动作，保持待机可打断，并按衣装等状态选择待机。新增 4 项实际模型自动待机检查通过，仍未进行安卓真机验收。
 
 ## 0.1.1 更新
 
@@ -33,7 +37,7 @@
 
 ## 测试范围
 
-APK 编译和签名验证通过；Android Lint 为 0 错误。12 项配置／取景回归、170 份 Java/Python 解码掩码交叉检查、10 项桌面 WebGL 检查通过。
+APK 编译和签名验证通过；Android Lint 为 0 错误。20 项配置／取景／待机回归、170 份 Java/Python 解码掩码交叉检查、10 项桌面 WebGL 检查通过。
 
 以上测试不等同于安卓真机验收。系统文件选择器、手机 WebView、音频、触控、内存和性能仍需设备验证。当前只以两个实际样本适配，未覆盖全部 WPK 历史格式、EX 指令及控制器。
 
