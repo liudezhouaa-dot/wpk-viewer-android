@@ -1,8 +1,8 @@
 {
-  "version": "0.1.3",
-  "apk": "WPK-Viewer-0.1.3-debug.apk",
-  "bytes": 508433,
-  "sha256": "ff010d30eb544fb511c256aaaa4ee215ff449974adfde2ab4e591b143507c580",
+  "version": "0.1.4",
+  "apk": "WPK-Viewer-0.1.4-debug.apk",
+  "bytes": 500982,
+  "sha256": "3fee69dc329d85cc904a4ff96038b33e1de52031fd88779154517422bd14b911",
   "minimum_android": "8.0 / API 26",
   "target_api": 34,
   "apk_signature": "v2 verified",
@@ -18,6 +18,8 @@
     "live2d": 80,
     "spine_parent": 7
   },
+  "player_layout_and_gesture_checks": 6,
+  "render_checks": 4,
   "android_device_tested": false,
   "model_assets_bundled": false
 }
