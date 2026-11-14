@@ -1,2 +1,42 @@
-# wpk-viewer-android
-WPK 模型馆：Android 本地 Live2D / Spine 4.2 模型查看器测试版。
+# WPK 模型馆 · Android
+
+安卓本地 WPK 模型查看器预览版，支持 Live2D 和 Spine 4.2。导入模型后可离线使用。
+
+## 下载
+
+[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.1.0/WPK-Viewer-0.1.0-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.1.0)
+
+最低 Android 8.0，请保持 Android System WebView 已更新。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 使用
+
+1. 将 APK 和自己的 WPK 模型文件复制到手机。
+2. 安装并打开“WPK 模型馆”。
+3. 点击“导入 WPK”，选择模型，等待入库。
+4. 点击模型卡片查看；轻触原模型区域互动，双指缩放和移动。
+
+底部支持暂停、动作选择、部件参数控制、视角归位和背景切换。右上角可查看运行告警及动作语言。
+
+模型保存在应用私有目录。卸载应用会移除已导入的模型和状态。
+
+## 已实现
+
+- STM_1_0 WPK/LPK 导入及本地模型库。
+- Live2D MOC3、动作、物理、网格命中、参数锁定与拖拽。
+- Spine 4.2 JSON、Atlas、纹理、分层动画与父子模型。
+- 常见变量条件、前后置指令、语音、字幕和菜单分支。
+- 暂停、缩放、移动及本地状态保存。
+
+## 测试范围
+
+APK 编译和签名验证通过；Android Lint 为 0 错误。8 项配置解释器回归、170 份 Java/Python 解码掩码交叉检查、10 项桌面 WebGL 检查通过。
+
+以上测试不等同于安卓真机验收。系统文件选择器、手机 WebView、音频、触控、内存和性能仍需设备验证。当前只以两个实际样本适配，未覆盖全部 WPK 历史格式、EX 指令及控制器。
+
+不支持旧版 Live2D `.moc`、非 4.2 Spine、Spine 二进制骨架、跨类型子模型、EX 任意脚本、动态壁纸或悬浮窗。模型原包缺失的资源不会自动补齐，未实现或缺失分支会显示告警。
+
+## 模型与第三方运行库
+
+本仓库及安装包不包含模型 WPK、解包模型、角色贴图、音频或测试截图。请使用自己有权使用的模型。
+
+APK 包含的第三方运行库及其许可声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。公开下载不表示这些第三方组件被重新授权为本项目代码；相应条款继续适用。
