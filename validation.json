@@ -1,16 +1,16 @@
 {
-  "version": "0.1.7",
-  "apk": "WPK-Viewer-0.1.7-debug.apk",
-  "bytes": 526466,
-  "sha256": "39c1de0555371e3b722464f11eb9f1de4d37f7f25ef0a7fc8368f2fe71edad9c",
+  "version": "0.2.0",
+  "apk": "WPK-Viewer-0.2.0-debug.apk",
+  "bytes": 556883,
+  "sha256": "81e128222b45cb9180f032c7804f539b9347452148313cb4fb9309717a533b88",
   "minimum_android": "8.0 / API 26",
   "target_api": 34,
   "apk_signature": "v2 verified",
   "android_lint": {
     "errors": 0,
-    "warnings": 2
+    "warnings": 4
   },
-  "configuration_tests": 32,
+  "configuration_tests": 37,
   "desktop_webgl_checks": 10,
   "automatic_idle_checks": 4,
   "hit_overlay_checks": 6,
@@ -23,6 +23,7 @@
   "display_settings_and_persistence_checks": 6,
   "automatic_checkpoint_restore_checks": 5,
   "frame_rate_and_quality_checks": 5,
+  "home_and_boards_checks": 8,
   "android_high_refresh_device_tested": false,
   "android_device_tested": false,
   "model_assets_bundled": false
