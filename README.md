@@ -4,9 +4,13 @@
 
 ## 下载
 
-[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.1.0/WPK-Viewer-0.1.0-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.1.0)
+[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.1.1/WPK-Viewer-0.1.1-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.1.1)
 
 最低 Android 8.0，请保持 Android System WebView 已更新。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.1.1 更新
+
+修正可见区域取景及异常大网格导致的画面缩小；限制 Live2D 画布外遮罩，使用设备支持的高精度 Spine 贴图坐标和实际屏幕像素倍率。底部“视图”可选择适应画面、填满屏幕、全景及放大／缩小。新增 4 项渲染回归检查通过，尚未进行安卓真机验收。
 
 ## 使用
 
@@ -29,7 +33,7 @@
 
 ## 测试范围
 
-APK 编译和签名验证通过；Android Lint 为 0 错误。8 项配置解释器回归、170 份 Java/Python 解码掩码交叉检查、10 项桌面 WebGL 检查通过。
+APK 编译和签名验证通过；Android Lint 为 0 错误。12 项配置／取景回归、170 份 Java/Python 解码掩码交叉检查、10 项桌面 WebGL 检查通过。
 
 以上测试不等同于安卓真机验收。系统文件选择器、手机 WebView、音频、触控、内存和性能仍需设备验证。当前只以两个实际样本适配，未覆盖全部 WPK 历史格式、EX 指令及控制器。
 
