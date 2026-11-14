@@ -20,3 +20,5 @@ APK 内保留以下第三方组件及许可声明，位置为 `assets/vendor/` �
 - [Spine Runtimes](https://github.com/EsotericSoftware/spine-runtimes)
 
 使用、修改或再分发这些组件时，各自的许可条件继续适用；本仓库不另行授予第三方模型或运行库的授权。
+
+自 0.2.1 起，服装品牌分类内置依据用户提供的《交错战线》截图追摹的 21 款徽标，相关名称与图形权利归原权利人。详见 APK 和声明附件中的 `licenses/BrandReferences.txt`。背景纹理与炫彩效果以 SVG/CSS 重建，未分发原始参考截图。
