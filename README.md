@@ -4,9 +4,19 @@
 
 ## 下载
 
-[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.0/WPK-Viewer-0.2.0-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.2.0)
+[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.1/WPK-Viewer-0.2.1-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.2.1)
 
 最低 Android 8.0，请保持 Android System WebView 已更新。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.2.1 更新
+
+品牌图鉴预置按用户参考图追摹的 21 款 SVG 徽标，保留图案、英文花体与装饰细节。五列双排、每页十张卡片，提供双层卡框、角标、底部金线与品牌名称；卡片背景重建细密横纹、颗粒、等高线和低饱和炫彩反光。图标轮廓来自截图，不能等同原始高清设计稿。
+
+整体调整导航图标、面板、按钮、半色调细节、字体字重及看板间距；左下角收藏卡加入模型封面。模型库 → 分类管理 → 服装品牌进入图鉴，点击卡片编辑名称／图标，也可新建品牌；筛选中的“浏览品牌图鉴”可直接选择品牌。升级一次性补齐内置品牌，保留自定义 ID、图标与模型归属，并记住后续主动移除的品牌。
+
+[品牌页一](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.1/brand-gallery-1.png) · [品牌页二](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.1/brand-gallery-2.png) · [品牌页三](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.1/brand-gallery-3.png)
+
+39 项单元和 60 项桌面检查通过，安卓真机仍待验收。品牌图形权利归原权利人，来源说明见 [第三方与视觉来源声明](THIRD_PARTY_NOTICES.md)。
 
 ## 0.2.0 更新
 
@@ -85,7 +95,7 @@
 
 ## 测试范围
 
-APK 编译和签名验证通过；Android Lint 为 0 错误。本版 37 项单元检查、8 项主页／看板检查、10 项桌面功能检查、4 项自动待机检查、6 项区域显示检查、6 项播放页与手势检查、4 项渲染检查、6 项显示设置／状态恢复检查、5 项自动现场恢复检查及 5 项帧率／画质检查通过。Java/Python 解码掩码此前完成 170 份交叉核对，本版未修改导入解码实现。
+APK 编译和签名验证通过；Android Lint 为 0 错误。本版 39 项单元检查、6 项品牌图鉴检查、8 项主页／看板检查、10 项桌面功能检查、4 项自动待机检查、6 项区域显示检查、6 项播放页与手势检查、4 项渲染检查、6 项显示设置／状态恢复检查、5 项自动现场恢复检查及 5 项帧率／画质检查通过。Java/Python 解码掩码此前完成 170 份交叉核对，本版未修改导入解码实现。
 
 以上测试不等同于安卓真机验收。系统文件选择器、手机 WebView、音频、触控、内存和性能仍需设备验证。当前只以两个实际样本适配，未覆盖全部 WPK 历史格式、EX 指令及控制器。
 
@@ -93,6 +103,6 @@ APK 编译和签名验证通过；Android Lint 为 0 错误。本版 37 项单�
 
 ## 模型与第三方运行库
 
-本仓库及安装包不包含模型 WPK、解包模型、角色贴图、音频或测试截图。请使用自己有权使用的模型。
+本仓库及安装包不包含模型 WPK、解包模型、角色贴图或音频。0.2.1 内置按用户参考图追摹的品牌徽标；公开预览仅展示品牌图鉴，不展示私有模型或原始参考截图。请使用自己有权使用的模型。
 
 APK 包含的第三方运行库及其许可声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。公开下载不表示这些第三方组件被重新授权为本项目代码；相应条款继续适用。
