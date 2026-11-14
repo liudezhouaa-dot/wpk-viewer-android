@@ -4,9 +4,15 @@
 
 ## 下载
 
-[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.1.2/WPK-Viewer-0.1.2-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.1.1)
+[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.1.3/WPK-Viewer-0.1.3-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.1.3)
 
 最低 Android 8.0，请保持 Android System WebView 已更新。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.1.3 更新
+
+新增点击触发区域显示：点击顶部“区域”按钮或开启“视图 → 显示触发区域”。亮色实线表示启用区域，灰色虚线表示当前禁用区域；显示区域名称，跟随动画、缩放移动和父子模型变化，自动保存开关状态。动作继续遵循原包的状态条件和点击优先级。
+
+新增 6 项桌面区域显示检查通过，核对 80 个 Live2D 区域及 7 个 Spine 主模型区域的中心和边界内外命中，并覆盖点击透传、视角、子模型及开关保存。尚未完成安卓真机验收；Spine 区域单位仍沿用现有兼容换算，尚未与原 EX 软件逐区比较。
 
 ## 0.1.2 更新
 
@@ -23,7 +29,7 @@
 3. 点击“导入 WPK”，选择模型，等待入库。
 4. 点击模型卡片查看；轻触原模型区域互动，双指缩放和移动。
 
-底部支持暂停、动作选择、部件参数控制、视角归位和背景切换。右上角可查看运行告警及动作语言。
+底部支持暂停、动作选择、部件参数控制、视图和背景切换。顶部“区域”开关可显示点击范围，“ⓘ”可查看运行告警及动作语言。
 
 模型保存在应用私有目录。卸载应用会移除已导入的模型和状态。
 
