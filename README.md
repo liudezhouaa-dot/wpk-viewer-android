@@ -4,9 +4,21 @@
 
 ## 下载
 
-[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.13/WPK-Viewer-0.2.13-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.2.13)
+[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.14/WPK-Viewer-0.2.14-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.2.14)
 
 最低 Android 8.0，请保持 Android System WebView 已更新。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.2.14 更新
+
+修复“固定／已固定”切换时重画图标导致的点击音遗漏：点击图标、文字或按钮空白都只播放一次，固定使用确认音，解除使用取消音。
+
+模型画面的正常轻点也有点击音，包括原有触点和非触发区域。拖动、双指缩放、取消触摸不发声；隐藏 UI 继续可用，恢复 UI 的第三次轻点仍单独消费。单／双模型采用同一套音效与音量，双模型由主页音频上下文播放以避免重复。
+
+「设置 → 界面声音」提供当前原版（默认）、晶透轻响、精密机芯、柔和木触四套方案，各有独立的确认／取消音，并可分别试听。原版两段 WAV 保持原样；新增三套为程序合成的短反馈。新增模型轻点音效独立开关，方案、开关和音量自动保存；模型原有语音不受界面音效设置影响。
+
+63 项单元、138 项桌面检查，以及 APK 构建、v2 签名与 Android Lint（0 错误）通过。桌面检查验证音频解码、实际播放节点和触控路由，手机实际听感与触控仍需真机验收。
+
+[声音设置预览](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.14/interface-sound-settings.png) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.14/TESTING.md)
 
 ## 0.2.13 更新
 
@@ -216,4 +228,5 @@ APK 编译和签名验证通过；Android Lint 为 0 错误。本版 56 项单�
 本仓库及安装包不包含模型 WPK、解包模型、角色贴图或模型语音。0.2.1 内置按用户参考图追摹的品牌徽标；公开预览仅展示品牌图鉴，不展示私有模型或原始参考截图。请使用自己有权使用的模型。
 
 APK 包含的第三方运行库及其许可声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。公开下载不表示这些第三方组件被重新授权为本项目代码；相应条款继续适用。
+
 
