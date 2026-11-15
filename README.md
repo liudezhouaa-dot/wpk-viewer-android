@@ -4,9 +4,19 @@
 
 ## 下载
 
-[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.5/WPK-Viewer-0.2.5-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.2.5)
+[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.6/WPK-Viewer-0.2.6-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.2.6)
 
 最低 Android 8.0，请保持 Android System WebView 已更新。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.2.6 更新
+
+“帧率与画质”拆分贴图清晰度（原图／2048／1024）与渲染分辨率（100%／85%／65%）。默认原图＋85%，85% 约为原生 72% 像素量；降低渲染分辨率保留原图贴图，不重新上传纹理、重启动作或改变点击坐标。旧版帧率及贴图选择继承，可点击“高清流畅基准：原图＋85%＋60 帧”开始对照。
+
+新增性能浮窗、帧间隔与 CPU/GPU 分项耗时、长帧统计，安卓端原生 VSync 与窗口 FrameMetrics。GPU 计时不可用时明确标注，CPU 提交与 GPU 完成区分。报告带有界帧时间序列，可复制或选择位置保存，不会自动上传，也不包含私有模型标识或素材。
+
+51 项单元和 86 项桌面检查、编译、签名及 Lint 通过；尚未完成 K60 Ultra 真机验收，不能保证任意模型达到高清 120 帧。
+
+[手机测试步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.6/TESTING.md) · [性能设置预览](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.6/performance-panel.png)
 
 ## 0.2.5 更新
 
@@ -131,7 +141,7 @@
 
 ## 测试范围
 
-APK 编译和签名验证通过；Android Lint 为 0 错误。本版 44 项单元检查、6 项流畅度检查、6 项音效／时装库入口／矢量清晰度检查、6 项录屏流程／界面音效检查、6 项品牌图鉴检查、8 项主页／看板检查、10 项桌面功能检查、4 项自动待机检查、6 项区域显示检查、6 项播放页与手势检查、4 项渲染检查、6 项显示设置／状态恢复检查、5 项自动现场恢复检查及 5 项帧率／画质检查通过。Java/Python 解码掩码此前完成 170 份交叉核对，本版未修改导入解码实现。
+APK 编译和签名验证通过；Android Lint 为 0 错误。本版 51 项单元检查、6 项诊断检查、6 项流畅度检查、6 项音效／时装库入口／矢量清晰度检查、6 项录屏流程／界面音效检查、6 项品牌图鉴检查、8 项主页／看板检查、10 项桌面功能检查、4 项自动待机检查、6 项区域显示检查、6 项播放页与手势检查、4 项渲染检查、6 项显示设置／状态恢复检查、5 项自动现场恢复检查及 7 项帧率／画质检查通过。Java/Python 解码掩码此前完成 170 份交叉核对，本版未修改导入解码实现。
 
 以上测试不等同于安卓真机验收。系统文件选择器、手机 WebView、音频、触控、内存和性能仍需设备验证。当前只以两个实际样本适配，未覆盖全部 WPK 历史格式、EX 指令及控制器。
 
