@@ -1,8 +1,8 @@
 {
-  "version": "0.2.5",
-  "apk": "WPK-Viewer-0.2.5-debug.apk",
-  "bytes": 1457757,
-  "sha256": "8ef5b49ba22652017d7eded77b3f372f023b2565d2dc31f8df4efe77070f14a4",
+  "version": "0.2.6",
+  "apk": "WPK-Viewer-0.2.6-debug.apk",
+  "bytes": 1477801,
+  "sha256": "6b08e0ae42f53fe59cccf6594ef9dd31fc55ce14885b71c5201f0bb2d5540067",
   "minimum_android": "8.0 / API 26",
   "target_api": 34,
   "apk_signature": "v2 verified",
@@ -10,7 +10,7 @@
     "errors": 0,
     "warnings": 4
   },
-  "configuration_tests": 44,
+  "configuration_tests": 51,
   "desktop_webgl_checks": 10,
   "automatic_idle_checks": 4,
   "hit_overlay_checks": 6,
@@ -22,7 +22,7 @@
   "render_checks": 4,
   "display_settings_and_persistence_checks": 6,
   "automatic_checkpoint_restore_checks": 5,
-  "frame_rate_and_quality_checks": 5,
+  "frame_rate_and_quality_checks": 7,
   "home_and_boards_checks": 8,
   "brand_gallery_checks": 6,
   "android_high_refresh_device_tested": false,
@@ -31,6 +31,8 @@
   "sound_fashion_and_vector_refinement_checks": 6,
   "smoothness_checks": 6,
   "original_reference_screenshots_bundled": false,
+  "independent_resolution_diagnostic_checks": 6,
+  "native_frame_metrics_device_tested": false,
   "android_device_tested": false,
   "model_assets_bundled": false
 }
