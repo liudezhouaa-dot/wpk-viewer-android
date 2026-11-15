@@ -1,8 +1,8 @@
 {
-  "version": "0.2.13",
-  "apk": "WPK-Viewer-0.2.13-debug.apk",
-  "bytes": 1475083,
-  "sha256": "3beaaf561363e9895fa9efaaff104ac46b9acd5002b844b130403c0d5b2764c6",
+  "version": "0.2.14",
+  "apk": "WPK-Viewer-0.2.14-debug.apk",
+  "bytes": 1625923,
+  "sha256": "0c452228b557934c4b02fefbbe903cfe044b245c2501462b980d5be84eba2b76",
   "minimum_android": "8.0 / API 26",
   "target_api": 34,
   "apk_signature": "v2 verified",
@@ -10,7 +10,7 @@
     "errors": 0,
     "warnings": 4
   },
-  "configuration_tests": 60,
+  "configuration_tests": 63,
   "desktop_webgl_checks": 10,
   "automatic_idle_checks": 4,
   "hit_overlay_checks": 6,
@@ -41,5 +41,6 @@
   "native_frame_metrics_device_tested": false,
   "android_device_tested": false,
   "model_assets_bundled": false,
+  "interface_audio_and_model_tap_checks": 8,
   "compact_settings_and_click_feedback_checks": 6
 }
