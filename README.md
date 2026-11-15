@@ -4,9 +4,17 @@
 
 ## 下载
 
-[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.8/WPK-Viewer-0.2.8-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.2.8)
+[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.9/WPK-Viewer-0.2.9-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.2.9)
 
 最低 Android 8.0，请保持 Android System WebView 已更新。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.2.9 更新
+
+设置 → 文本显示新增游戏面板、磨砂面板、纯文字样式，以及 0～100% 背景不透明度。文字与原有选项保持清晰；文本框内双指缩放和移动（60%～200%），按目标字号重新排版。把手拖动和长文本单指滑动继续可用。外观、位置与缩放自动保存，支持单／双模型，兼容旧设置。
+
+59 项单元、103 项桌面检查及构建、签名、Lint 通过。浏览器真实双指输入已验证，手机触控手感仍待安装验证。
+
+[文本设置预览](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.9/text-panel-settings.png) · [手机测试步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.9/TESTING.md)
 
 ## 0.2.8 更新
 
