@@ -4,9 +4,19 @@
 
 ## 下载
 
-[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.11/WPK-Viewer-0.2.11-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.2.11)
+[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.12/WPK-Viewer-0.2.12-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.2.12)
 
 最低 Android 8.0，请保持 Android System WebView 已更新。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.2.12 更新
+
+按用户提供的新录屏重做右下收缩：金色菱形沿横线移动，工具按钮依次淡出，展开时反向出现；末端圆形设置保留，收起后仍可使用。快捷栏提供已有的视图、动作、部件、固定和区域功能，收起状态自动保存。
+
+按钮使用上图标下文字、白／金色实心矢量及镂空细节，设置入口加入分层细环、断续弧线和低速微动；方形／六边形点击瞬态及设置面板图标同步调整。以录屏实际 1280×576 游戏区域等比参考大小：眼睛 38 px、小按钮 28 px、末端圆 128 px，其他视口等比缩放。原录屏、角色和其他游戏界面截图不会内置。
+
+60 项单元、124 项桌面检查及构建、签名、Lint 通过；保留模型锁定、独立文本、双模型切换和自动保存，真机显示与手感仍待安装验证。
+
+[动效预览](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.12/ui-rail-preview.mp4) · [展开预览](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.12/video-rail-expanded.png) · [收起预览](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.12/video-rail-collapsed.png) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.12/TESTING.md)
 
 ## 0.2.11 更新
 
