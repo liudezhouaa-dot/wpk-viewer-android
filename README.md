@@ -4,9 +4,15 @@
 
 ## 下载
 
-[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.7/WPK-Viewer-0.2.7-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.2.7)
+[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.8/WPK-Viewer-0.2.8-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.2.8)
 
 最低 Android 8.0，请保持 Android System WebView 已更新。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.2.8 更新
+
+修复隐藏 UI 时普通模型点击被拦截的问题，单／双模型的 Spine、Live2D 均继续按原包条件互动。三连点恢复 UI，前两次是普通轻点，第三次只用于恢复，不额外触发动作。拖动、双指缩放与区域独立显示保留。
+
+56 项单元、96 项桌面检查及编译、签名、Lint 通过；新增隐藏 UI 下真实动作、菜单、手势及双模型回归，安卓触控仍待真机验证。
 
 ## 0.2.7 更新
 
@@ -151,7 +157,7 @@ Spine 姿态使用紧凑数值记录，避免重复遍历运行时骨骼图；�
 
 ## 测试范围
 
-APK 编译和签名验证通过；Android Lint 为 0 错误。本版 56 项单元检查、5 项绘制／存档优化检查、6 项诊断检查、6 项流畅度检查、6 项音效／时装库入口／矢量清晰度检查、6 项录屏流程／界面音效检查、6 项品牌图鉴检查、8 项主页／看板检查、10 项桌面功能检查、4 项自动待机检查、6 项区域显示检查、6 项播放页与手势检查、4 项渲染检查、6 项显示设置／状态恢复检查、5 项自动现场恢复检查及 7 项帧率／画质检查通过。Java/Python 解码掩码此前完成 170 份交叉核对，本版未修改导入解码实现。
+APK 编译和签名验证通过；Android Lint 为 0 错误。本版 56 项单元检查、5 项隐藏 UI 互动检查、5 项绘制／存档优化检查、6 项诊断检查、6 项流畅度检查、6 项音效／时装库入口／矢量清晰度检查、6 项录屏流程／界面音效检查、6 项品牌图鉴检查、8 项主页／看板检查、10 项桌面功能检查、4 项自动待机检查、6 项区域显示检查、6 项播放页与手势检查、4 项渲染检查、6 项显示设置／状态恢复检查、5 项自动现场恢复检查及 7 项帧率／画质检查通过。Java/Python 解码掩码此前完成 170 份交叉核对，本版未修改导入解码实现。
 
 以上测试不等同于安卓真机验收。系统文件选择器、手机 WebView、音频、触控、内存和性能仍需设备验证。当前只以两个实际样本适配，未覆盖全部 WPK 历史格式、EX 指令及控制器。
 
