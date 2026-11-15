@@ -4,9 +4,26 @@
 
 ## 下载
 
-[下载 0.3.0 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.0/WPK-Viewer-0.3.0-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.0) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.0/TESTING.md)
+[下载 0.3.1 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.1/WPK-Viewer-0.3.1-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.1) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.1/TESTING.md)
 
 最低 Android 8.0，建议保持 Android System WebView 更新。覆盖安装保留已有模型、分类、看板和存档。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.3.1 更新
+
+按 8 项反馈精简入口与收藏布局：
+
+- 顶部按当前角色实际收藏等级显示相同颗数的星星，并显示当前模型所属品牌，无品牌不显示；移除模型／品牌总数和看板数量。
+- 右上删除礼物、导入 WPK、看板管理入口，保留时装库；头像进入收藏中心，资料编辑放在中心上方。
+- 左侧改为两个“待实现功能”占位、我的收藏和看板；看板直接进入原看板设置，左下重复看板按钮删除。
+- 设置移除动作与互动、切换背景、界面声音、打开模型库四个重复按钮；导入管理移除游戏／品牌和角色网格，外部功能仍可用。
+- 精选右大卡改全角色库，删除最近加入，下方保留品牌图鉴并加入游戏图鉴。游戏分类卡显示实际角色和时装数量，可管理游戏、进入对应角色库及待归档分组。
+- 我的收藏保留左侧导航，仅在右侧显示五列网格；搜索、筛选、批量管理与详情返回保留。
+
+73 项单元、121 项桌面检查和 170 份 Java/Python 解码核对通过，构建、v2 签名及 Android Lint（0 错误）通过。渲染算法未改动，安卓真机仍需验证。
+
+[主页布局](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.1/gallery-home.png) · [精选展台](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.1/gallery-overview.png) · [收藏布局](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.1/gallery-favorites.png) · [游戏图鉴](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.1/gallery-games.png)
+
+以上预览使用测试生成的几何封面，不是内置模型或用户截图。覆盖安装保留原有数据。
 
 ## 0.3.0 更新
 
@@ -27,11 +44,11 @@
 ## 使用
 
 1. 覆盖安装 APK，进入上次看板；空库从右上「导入 WPK」选择自己的文件。
-2. 左下收藏卡打开角色网格，右上高跟鞋打开时装库，右上小按钮打开收藏中心或公告。
+2. 左下收藏卡打开角色网格，右上高跟鞋打开时装库，右上小图标打开公告；头像进入收藏中心。
 3. 在「导入管理 → 归档」设置游戏、角色名、服装名与品牌。角色网格单击详情、长按管理；详情查看真实资料、换装和原互动。
 4. 预览后「设为看板」选择位置返回主页。收藏中心另有合集、背景、展示预设及声音管理。
 
-左下五快捷为隐藏 UI、文本、看板、随机、背景；右下为视图、动作、档案、固定、区域与圆形设置，金色菱形收起工具。隐藏 UI 后普通轻点继续互动，三连点直接恢复；文本和区域独立。位置、缩放和模型状态自动保存，不需要保存按钮。
+左下四快捷为隐藏 UI、文本、随机、背景；左侧「看板」打开看板设置；右下为视图、动作、档案、固定、区域与圆形设置，金色菱形收起工具。隐藏 UI 后普通轻点继续互动，三连点直接恢复；文本和区域独立。位置、缩放和模型状态自动保存，不需要保存按钮。
 
 模型与自选媒体保存在应用私有目录。卸载或清除数据会移除库和状态；系统突然强杀或断电可能丢失最近一次定期存档之后的变化。
 
