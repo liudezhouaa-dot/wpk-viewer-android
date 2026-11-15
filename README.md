@@ -4,9 +4,19 @@
 
 ## 下载
 
-[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.12/WPK-Viewer-0.2.12-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.2.12)
+[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.13/WPK-Viewer-0.2.13-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.2.13)
 
 最低 Android 8.0，请保持 Android System WebView 已更新。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.2.13 更新
+
+移除主页及设置中的部件按钮，不再保留栏外入口。设置首页第一项为「重置当前模型」，双模型先选择左／右侧，再确认重置；移除原来的状态保存、部件与状态、暂停入口，自动保存继续工作。
+
+设置入口改成随文字宽度排列的等高紧凑按钮，一行放多个；打开模型库改为三人像与环形箭头矢量图标。按钮新增按下缩小与高亮，松手再次显示点击标记，长按后也有反馈；关闭界面音效或系统选择减少动画时仍保留可见反馈。
+
+60 项单元、130 项桌面检查，以及 APK 构建、v2 签名和 Android Lint（0 错误）通过。桌面触摸检查不等同于安卓真机手感验收。
+
+[设置预览](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.13/compact-settings.png) · [收展预览](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.13/ui-rail-preview.mp4) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.13/TESTING.md)
 
 ## 0.2.12 更新
 
@@ -181,7 +191,7 @@ Spine 姿态使用紧凑数值记录，避免重复遍历运行时骨骼图；�
 3. 点击左下角模型收藏卡进入模型库，点击“导入 WPK”，选择模型，等待入库。
 4. 点击模型卡片查看；轻点原模型区域互动，单指拖动模型，双指缩放和移动。
 
-点击品牌进入服装／模型列表，通过“加入模型”归类；齿轮 → 界面声音控制点击／确认和取消／返回两类音效。左下角第三个图标进入看板设置，五号图标从相册设置背景，右下角金色高跟鞋进入时装库并下滑浏览。模型库的“分类管理”添加游戏和服装品牌，卡片“⋯”设置归属。右下角“区域”按钮显示／关闭点击范围，齿轮进入设置。设置提供视图、帧率与画质、文本显示、触发区域样式、状态保存、暂停、动作、部件、背景、运行信息与语言，以及返回模型馆。
+点击品牌进入服装／模型列表，通过“加入模型”归类；齿轮 → 界面声音控制点击／确认和取消／返回两类音效。左下角第三个图标进入看板设置，五号图标从相册设置背景，右上角金色高跟鞋进入时装库并下滑浏览。模型库的“分类管理”添加游戏和服装品牌，卡片“⋯”设置归属。右下角“区域”按钮显示／关闭点击范围，齿轮进入设置。设置提供重置当前模型、视图、帧率与画质、文本显示、触发区域样式、动作、背景、界面声音、运行信息与语言，以及打开模型库。
 
 模型保存在应用私有目录。卸载应用会移除已导入的模型和状态。
 
@@ -206,3 +216,4 @@ APK 编译和签名验证通过；Android Lint 为 0 错误。本版 56 项单�
 本仓库及安装包不包含模型 WPK、解包模型、角色贴图或模型语音。0.2.1 内置按用户参考图追摹的品牌徽标；公开预览仅展示品牌图鉴，不展示私有模型或原始参考截图。请使用自己有权使用的模型。
 
 APK 包含的第三方运行库及其许可声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。公开下载不表示这些第三方组件被重新授权为本项目代码；相应条款继续适用。
+
