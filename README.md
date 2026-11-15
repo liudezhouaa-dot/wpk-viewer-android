@@ -4,9 +4,19 @@
 
 ## 下载
 
-[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.6/WPK-Viewer-0.2.6-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.2.6)
+[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.7/WPK-Viewer-0.2.7-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.2.7)
 
 最低 Android 8.0，请保持 Android System WebView 已更新。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.2.7 更新
+
+针对真机反馈中的渲染提交与周期存档耗时，提前跳过可安全省略的全透明 Spine 槽位，保留微透明细节、特殊混合与裁剪终点。本地样本跳过 221／477 个槽位，原路径与优化路径逐像素一致；这属于桌面工作量验证，不是手机 FPS 提升比例。
+
+Spine 姿态使用紧凑数值记录，避免重复遍历运行时骨骼图；周期 JSON 编码移至工作线程，操作和生命周期检查点继续保存。通过序号防止旧异步结果覆盖较新状态；兼容旧检查点，工作线程失败时回退。诊断新增透明槽位计数、draw calls 与存档捕获／编码／写入分项。
+
+56 项单元、91 项桌面检查及编译、签名、Lint 通过，0.2.7 手机效果仍需复测。请保持原图贴图、85% 渲染，分别测试 60／120 帧。
+
+[手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.7/TESTING.md) · [绘制与存档验证](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.7/spine-optimization.json)
 
 ## 0.2.6 更新
 
@@ -141,7 +151,7 @@
 
 ## 测试范围
 
-APK 编译和签名验证通过；Android Lint 为 0 错误。本版 51 项单元检查、6 项诊断检查、6 项流畅度检查、6 项音效／时装库入口／矢量清晰度检查、6 项录屏流程／界面音效检查、6 项品牌图鉴检查、8 项主页／看板检查、10 项桌面功能检查、4 项自动待机检查、6 项区域显示检查、6 项播放页与手势检查、4 项渲染检查、6 项显示设置／状态恢复检查、5 项自动现场恢复检查及 7 项帧率／画质检查通过。Java/Python 解码掩码此前完成 170 份交叉核对，本版未修改导入解码实现。
+APK 编译和签名验证通过；Android Lint 为 0 错误。本版 56 项单元检查、5 项绘制／存档优化检查、6 项诊断检查、6 项流畅度检查、6 项音效／时装库入口／矢量清晰度检查、6 项录屏流程／界面音效检查、6 项品牌图鉴检查、8 项主页／看板检查、10 项桌面功能检查、4 项自动待机检查、6 项区域显示检查、6 项播放页与手势检查、4 项渲染检查、6 项显示设置／状态恢复检查、5 项自动现场恢复检查及 7 项帧率／画质检查通过。Java/Python 解码掩码此前完成 170 份交叉核对，本版未修改导入解码实现。
 
 以上测试不等同于安卓真机验收。系统文件选择器、手机 WebView、音频、触控、内存和性能仍需设备验证。当前只以两个实际样本适配，未覆盖全部 WPK 历史格式、EX 指令及控制器。
 
