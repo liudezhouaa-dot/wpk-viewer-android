@@ -1,8 +1,8 @@
 {
-  "version": "0.2.11",
-  "apk": "WPK-Viewer-0.2.11-debug.apk",
-  "bytes": 1470716,
-  "sha256": "bad73d79f2cfd03631668d52ebe732ad5b29f822659067f1b2a1f588603086a0",
+  "version": "0.2.12",
+  "apk": "WPK-Viewer-0.2.12-debug.apk",
+  "bytes": 1477188,
+  "sha256": "2993d3c4049446bf903af364782204c8ed7f9258f740374dcfc51e3af6e52aff",
   "minimum_android": "8.0 / API 26",
   "target_api": 34,
   "apk_signature": "v2 verified",
@@ -37,6 +37,7 @@
   "text_panel_checks": 7,
   "board_recovery_checks": 7,
   "control_shelves_checks": 6,
+  "reference_video_rail_checks": 8,
   "native_frame_metrics_device_tested": false,
   "android_device_tested": false,
   "model_assets_bundled": false
