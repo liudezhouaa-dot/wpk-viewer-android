@@ -4,9 +4,19 @@
 
 ## 下载
 
-[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.9/WPK-Viewer-0.2.9-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.2.9)
+[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.10/WPK-Viewer-0.2.10-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.2.10)
 
 最低 Android 8.0，请保持 Android System WebView 已更新。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.2.10 更新
+
+修复开启性能浮窗时，双角色尚未加载完导致主页动画循环中断、切回单角色停住的问题；延迟加载期间允许状态暂缺，辅助状态工作不再终止帧循环。主动保存的暂停状态仍保留。
+
+「设置 → 状态保存 → 重置当前模型状态」恢复初始换装、参数、互动、子模型、姿态与视角并重新播放。双角色只重置所选一侧；保留模型文件、看板、分类、背景、语言及文本外观和位置。新状态自动保存，旧异步存档不能覆盖重置结果。
+
+隐藏主页 UI 不再隐藏文本和选项，独立文本开关始终生效，三连点恢复不会改写其状态。59 项单元、110 项桌面检查及编译、签名、Lint 通过，安卓真机效果仍待安装验证。
+
+[重置入口预览](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.10/model-reset-settings.png) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.10/TESTING.md)
 
 ## 0.2.9 更新
 
