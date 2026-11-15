@@ -4,9 +4,19 @@
 
 ## 下载
 
-[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.10/WPK-Viewer-0.2.10-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.2.10)
+[下载 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.11/WPK-Viewer-0.2.11-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.2.11)
 
 最低 Android 8.0，请保持 Android System WebView 已更新。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.2.11 更新
+
+左下快捷图标与收藏卡、右侧按钮可分别通过边缘双箭头收起／展开，状态独立保存；收起内容不接受焦点，也不挡模型点击。时装库移到右上角，重画为金色尖头露跟细高跟矢量图标，保留细光和星芒动效。
+
+右侧新增模型锁定：固定单指拖动、双指移动／缩放、滚轮及视图按钮，保留动画、原有点击和选项；单／双模型一致。锁定自动保存，隐藏 UI、收起控件、切换看板和重新进入后仍保持；解除后恢复原拖动模式，文本框独立手势继续可用。
+
+60 项单元、116 项桌面检查及构建、签名、Lint 通过，安卓真机手感仍待验证。
+
+[展开预览](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.11/control-shelves-expanded.png) · [收起预览](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.11/control-shelves-collapsed.png) · [手机测试步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.2.11/TESTING.md)
 
 ## 0.2.10 更新
 
