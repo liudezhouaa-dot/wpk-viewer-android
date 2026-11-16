@@ -4,9 +4,21 @@
 
 ## 下载
 
-[下载 0.3.8 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.8/WPK-Viewer-0.3.8-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.8) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.8/TESTING.md)
+[下载 0.3.9 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.9/WPK-Viewer-0.3.9-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.9) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.9/TESTING.md)
 
 最低 Android 8.0，建议保持 Android System WebView 更新。覆盖安装保留已有模型、分类、看板和存档。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.3.9 更新
+
+- 时装库右侧动态切换、收藏和设为看板取消文字及长按钮，与原视图／档案／区域统一为两排三列的纯图标。
+- 六个按钮同为 27×27、矢量 22×22 逻辑像素，白／金色风格一致。收藏显示空心／实心爱心，动态及看板状态高亮；保留悬停提示和无障碍名称。
+- 动静切换、独立模型收藏、看板分配与原点击反馈保留，原模型状态和卡片外观不变。
+
+96 项单元、169 项桌面检查和 170 组原生解码向量通过；构建、v2 签名及 Android Lint（0 错误）通过。尚未完成安卓真机验收。
+
+[纯图标布局](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.9/fashion-shop-initial.png)
+
+公开预览使用生成的几何封面，未包含私有模型或用户原录屏。
 
 ## 0.3.8 更新
 
