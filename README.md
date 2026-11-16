@@ -4,9 +4,15 @@
 
 ## 下载
 
-[下载 0.3.3 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.3/WPK-Viewer-0.3.3-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.3) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.3/TESTING.md)
+[下载 0.3.4 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.4/WPK-Viewer-0.3.4-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.4) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.4/TESTING.md)
 
 最低 Android 8.0，建议保持 Android System WebView 更新。覆盖安装保留已有模型、分类、看板和存档。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.3.4 界面预览测试版
+
+直接打包当前工作区，供先确认界面与操作效果。覆盖安装保留已有数据。
+
+发布准备仅更新 Android 版本号及诊断版本标识，未调整界面或功能。已通过构建、Android Lint（0 错误）、v2 签名及安装包资源与当前工作区一致性检查。实现差异对比和功能审查等待用户确认效果后进行；本版未做 Android 真机测试或功能回归，不沿用 0.3.3 的测试数量。检查范围见本版 validation.json 与 TESTING.md。
 
 ## 0.3.3 更新
 
