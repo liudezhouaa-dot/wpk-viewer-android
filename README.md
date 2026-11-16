@@ -4,9 +4,24 @@
 
 ## 下载
 
-[下载 0.3.1 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.1/WPK-Viewer-0.3.1-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.1) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.1/TESTING.md)
+[下载 0.3.2 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.2/WPK-Viewer-0.3.2-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.2) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.2/TESTING.md)
 
 最低 Android 8.0，建议保持 Android System WebView 更新。覆盖安装保留已有模型、分类、看板和存档。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.3.2 更新
+
+- 游戏图鉴仅显示已添加的精美游戏标签。预置交错战线、碧蓝航线、棕色尘埃2；使用纹理炫彩卡面、矢量文字和独立小徽标，保留自定义游戏和图标。
+- 所有时装封面统一提供品牌、游戏、收藏星级三个独立全局开关（默认开启），即时同步并自动保存。品牌沿用下中部大水印，游戏小徽标在右上，星星更小，缺归属／0 星时不占位。
+- 覆盖角色、收藏、时装横竖条、合集明细／组合封面、品牌页、单／双看板、选择小图和主页收藏小图。切换开关不重载播放中的模型，不改变模型状态或取景。
+- 已有分类 ID、图标、模型归属及主动删除保留，棕色尘埃第一代不会被自动归为第二代。
+
+78 项单元、129 项桌面检查和 170 份 Java/Python 解码核对通过；构建、v2 签名及 Android Lint（0 错误）通过。没有 Android 真机验收。
+
+游戏标签为根据[交错战线官网](https://www.megagamelog.com/)、[碧蓝航线官网](https://game.bilibili.com/blhx/)、[棕色尘埃2官网](https://www.browndust2.com/zh-cn/)风格自行设计的 SVG，非官方原始标志；保留 Noto Sans CJK 的 SIL OFL 许可。
+
+[游戏图鉴](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.2/gallery-games.png) · [封面标记](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.2/gallery-roles.png) · [三个全局开关](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.2/gallery-cover-settings.png)
+
+公开预览仅用生成的几何封面，安装包不带模型。覆盖安装保留原有数据。
 
 ## 0.3.1 更新
 
