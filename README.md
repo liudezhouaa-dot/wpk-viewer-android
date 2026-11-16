@@ -4,9 +4,21 @@
 
 ## 下载
 
-[下载 0.3.5 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.5/WPK-Viewer-0.3.5-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.5) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.5/TESTING.md)
+[下载 0.3.6 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.6/WPK-Viewer-0.3.6-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.6) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.6/TESTING.md)
 
 最低 Android 8.0，建议保持 Android System WebView 更新。覆盖安装保留已有模型、分类、看板和存档。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.3.6 更新
+
+- 时装库底部封面固定隐藏品牌和游戏图标，保留星级与标签；其他页面沿用原全局开关，左上模型品牌资料保留。
+- 新增「设置 → 时装流光」，时装页也有同一入口。支持 2—8 色、HEX、各色比例与深浅、顺序、四种混搭、混合／纹理强度、速度和四向流动，提供配色预设和恢复默认。
+- 左／上留边分别 0—40 逻辑像素，只扩大卡框与流光窗口，封面保持 85×134.5 不变。上方搜索、操作及文本选项避让扩框；实时预览与自动保存，不重载模型。
+
+92 项单元、154 项桌面检查（含实际 WPK 播放／互动）和 170 组原生解码向量通过；构建、v2 签名及 Android Lint（0 错误）通过。尚未完成安卓真机验收。
+
+[流光设置](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.6/foil-settings.png) · [颜色编辑](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.6/foil-colors.png) · [扩大窗口](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.6/foil-expanded.png)
+
+公开预览仅使用生成的几何封面，未包含私有模型或原录屏。
 
 ## 0.3.5 更新
 
@@ -93,7 +105,7 @@
 
 ## 使用
 
-1. 覆盖安装 APK，进入上次看板；空库从右上「导入 WPK」选择自己的文件。
+1. 覆盖安装 APK，进入上次看板；空库从收藏中心「导入管理」选择自己的文件。
 2. 左下收藏卡打开角色网格，右上高跟鞋打开时装库，右上小图标打开公告；头像进入收藏中心。
 3. 在「导入管理 → 归档」设置游戏、角色名、服装名与品牌。角色网格单击详情、长按管理；详情查看真实资料、换装和原互动。
 4. 预览后「设为看板」选择位置返回主页。收藏中心另有合集、背景、展示预设及声音管理。
