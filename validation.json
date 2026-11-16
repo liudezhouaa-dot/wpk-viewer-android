@@ -1,8 +1,8 @@
 {
-  "version": "0.3.2",
-  "apk": "WPK-Viewer-0.3.2-debug.apk",
-  "bytes": 1692887,
-  "sha256": "236a014fb22aca4c674af69000c229ce358d5298b49913aac9c9d2458d5d08f5",
+  "version": "0.3.3",
+  "apk": "WPK-Viewer-0.3.3-debug.apk",
+  "bytes": 1728227,
+  "sha256": "aa88092303456a65f639c19abc3608081768896e01d18acd3ed4ca68c03b4c6f",
   "minimum_android": "8.0 / API 26",
   "target_api": 34,
   "apk_signature": "v2 verified",
@@ -11,15 +11,16 @@
     "errors": 0,
     "warnings": 4
   },
-  "configuration_tests": 78,
-  "desktop_checks": 129,
+  "configuration_tests": 84,
+  "desktop_checks": 139,
   "desktop_check_groups": {
     "collection_flow": 11,
-    "collection_runtime": 11,
+    "collection_runtime": 12,
     "collection_layout": 7,
     "android_bridge_mock": 5,
     "navigation_cleanup": 8,
     "cover_badges": 7,
+    "fashion_shop": 9,
     "model_smoke": 10,
     "automatic_idle": 4,
     "hit_overlay": 6,
@@ -36,6 +37,10 @@
   },
   "native_decoding_mask_vectors": 170,
   "bundled_brand_emblems": 21,
+  "reference_mark_definitions": {
+    "labels": 2,
+    "meaning_icons": 3
+  },
   "bundled_game_labels": 3,
   "bundled_game_emblems": 3,
   "game_artwork": "Project-designed outlined SVGs inspired by official sites; not original official logos",
