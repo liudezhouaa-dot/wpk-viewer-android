@@ -4,9 +4,21 @@
 
 ## 下载
 
-[下载 0.3.9 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.9/WPK-Viewer-0.3.9-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.9) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.9/TESTING.md)
+[下载 0.3.10 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.10/WPK-Viewer-0.3.10-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.10) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.10/TESTING.md)
 
 最低 Android 8.0，建议保持 Android System WebView 更新。覆盖安装保留已有模型、分类、看板和存档。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.3.10 更新
+
+- 六个时装工具按右上竖排含义图标的 32 单位实心剪影重绘，人物复用同一形状；补上相同的短底标，保留纯图标。
+- 改为靠下的一整横排，参考画布 y352、右侧 28，按钮 31×38、矢量 26×26、间距 12。流光窗口扩大时向上避让，紧凑和宽横屏均不挡搜索／封面条。
+- 选中显示金色、伸长底标、微光与一次轻抬，按压和松手有反馈；减少动态效果时只保留静态状态。区域、视图打开及看板状态与真实操作同步，改收藏不重载模型或重播无关图标动效。
+
+96 项单元、170 项桌面检查与 170 组原生解码向量通过；构建、v2 签名及 Android Lint（0 错误）通过。没有安卓真机验收。
+
+[图标动效 MP4](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.10/tools-motion-generated.mp4) · [选中样式](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.10/tools-selected-generated.png)
+
+预览为真实桌面 UI 录制，使用生成的几何封面，未包含私有模型和原录屏。
 
 ## 0.3.9 更新
 
