@@ -4,9 +4,21 @@
 
 ## 下载
 
-[下载 0.3.7 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.7/WPK-Viewer-0.3.7-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.7) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.7/TESTING.md)
+[下载 0.3.8 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.8/WPK-Viewer-0.3.8-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.8) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.8/TESTING.md)
 
 最低 Android 8.0，建议保持 Android System WebView 更新。覆盖安装保留已有模型、分类、看板和存档。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.3.8 更新
+
+- 「卡片外观」只保留圆角及并列的「流光配色」「底部效果」两个紧凑按钮，底部控件收纳进独立子页。
+- 底部新增「同步左／上流光」，持续跟随配色、比例、深浅、混搭、纹理、速度和方向。通过扩展同一流光层的蒙版，共用材质和动画相位，保留原封面大小，不重启模型或动画。
+- 同步不覆盖原独立底部参数，切回其他模式可继续编辑；底部页恢复默认只恢复底部。左／上留边均为零时，底部仍可流动。设置自动保存，主页与时装页入口一致。
+
+96 项单元、169 项桌面检查和 170 组原生解码向量通过；构建、v2 签名及 Android Lint（0 错误）通过。新增像素对照确认同步只改变底部，封面与原左／上区域保持一致；实际 WPK 验证同步不中断播放器和共享状态。尚未完成安卓真机验收。
+
+[收纳后的设置](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.8/footer-sync-menu.png) · [底部同步设置](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.8/footer-sync-settings.png)
+
+公开预览仅使用生成的几何封面，未包含私有模型或原录屏。
 
 ## 0.3.7 更新
 
