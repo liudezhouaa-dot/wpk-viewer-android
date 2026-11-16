@@ -4,9 +4,23 @@
 
 ## 下载
 
-[下载 0.3.2 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.2/WPK-Viewer-0.3.2-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.2) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.2/TESTING.md)
+[下载 0.3.3 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.3/WPK-Viewer-0.3.3-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.3) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.3/TESTING.md)
 
 最低 Android 8.0，建议保持 Android System WebView 更新。覆盖安装保留已有模型、分类、看板和存档。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.3.3 更新
+
+- 时装库按录屏重绘侧栏选中底板、金色竖条和缓慢漂移的曲线纹理；底部约 94 像素窄卡、白色选中框、上移抽出、图像放大和扫光。选卡保留列表，只切换当前动态预览。
+- 新进入默认选择并显示筛选集合首个模型，从指定模型进入则自动定位。左上显示实际品牌图标、品牌名、时装和角色；品牌下显示已分配标签及含义，右侧白色图标点击显示说明。
+- 新增标签库与含义图标库：独立新增／编辑名称、含义、矢量图样，标签选四种色系，可从相册选择图标。逐模型分配，删除定义先显示引用数，只解除相关标记，不删模型。
+- 预置绿色新品、玫红限时标签，以及方块特殊互动、人物模型改动、手掌高级互动时装图标。由用户明确分配，不自动猜测模型功能。
+- 路径：时装库 → 标记 → 标签库／含义图标库；模型归档内也可分配。定义、分配与旧数据保留，修改标记不重载播放中的模型，原品牌／游戏／星级全局开关仍独立生效。
+
+84 项单元、139 项桌面检查和 170 份 Java/Python 解码核对通过；构建、v2 签名及 Android Lint（0 错误）通过。没有 Android 真机验收。
+
+新增图标与纹理为 SVG／CSS 重绘，没有官方原始 UI 图集，不宣称像素级等同原素材。以下公开预览只用生成的几何封面：
+
+[时装库](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.3/fashion-shop-initial.png) · [选中封面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.3/fashion-shop-selected.png) · [图标说明](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.3/fashion-shop-legend.png) · [标签库](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.3/fashion-shop-labels.png) · [含义图标库](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.3/fashion-shop-icons.png)
 
 ## 0.3.2 更新
 
