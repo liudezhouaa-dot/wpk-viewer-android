@@ -4,9 +4,24 @@
 
 ## 下载
 
-[下载 0.3.4 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.4/WPK-Viewer-0.3.4-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.4) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.4/TESTING.md)
+[下载 0.3.5 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.5/WPK-Viewer-0.3.5-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.5) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.5/TESTING.md)
 
 最低 Android 8.0，建议保持 Android System WebView 更新。覆盖安装保留已有模型、分类、看板和存档。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.3.5 更新
+
+沿用已确认预览版的左／上「┏」形露底结构，按新增高清录屏继续精修：
+
+- 柔和镭射和有机闭合等高线持续向左上流动，画像尺寸及位置固定，取消覆盖全图扫光和按压缩放。纹理子层以 16 秒周期移动，只有选中卡运行。
+- 卡宽 96、间距 7、普通高 140／选中高 154、上移 21 逻辑像素，增加 2.5 像素浅圆角与低对比边线；底栏调整为冷深灰。
+- 新选中先亮框、短延迟后抽出，旧卡立即回落。重复点击当前卡保持流动进度，不重载模型。系统减少动态效果时保持静态纹理。
+- 标签库、含义图标、全局封面开关、点击音、真实播放／互动／存档和手势保留。
+
+84 项单元、145 项桌面检查和 170 份 Java/Python 解码核对通过；构建、v2 签名及 Android Lint（0 错误）通过。6 项边缘专项检查包含像素相位对照、画像稳定、循环接缝、几何尺寸和减少动态效果。没有 Android 真机验收，不承诺与官方材质像素／帧级 100% 一致。
+
+[持续动效 MP4](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.5/edge-flow-generated.mp4) · [动效 GIF](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.5/edge-flow-generated.gif) · [当前布局](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.5/refined-layout-generated.png) · [边缘专项记录](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.5/edge-verification.json)
+
+预览是实际桌面浏览器动画，使用生成的几何封面，不是原游戏录屏或私有模型。原录屏及参考截帧不公开。
 
 ## 0.3.4 界面预览测试版
 
