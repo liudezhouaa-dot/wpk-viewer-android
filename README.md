@@ -4,9 +4,22 @@
 
 ## 下载
 
-[下载 0.3.6 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.6/WPK-Viewer-0.3.6-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.6) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.6/TESTING.md)
+[下载 0.3.7 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.7/WPK-Viewer-0.3.7-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.7) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.7/TESTING.md)
 
 最低 Android 8.0，建议保持 Android System WebView 更新。覆盖安装保留已有模型、分类、看板和存档。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.3.7 更新
+
+- 时装库默认显示选中模型的静态封面。右侧收藏上方新增「切换动态／切换静态」，选新卡恢复静态；切回静态保存并释放播放器，加载期间也可取消，不重置模型互动与换装。
+- 原「流光」改成统一「卡片外观」入口，使用棱角金属按钮与重画矢量图标。内层封面与外层卡框圆角各 0—18；原流光设置收纳到「流光配色」。
+- 去掉选中卡底部重复名字，改为独立自定义镭射／流线／呼吸／关闭，可调整颜色、强度与速度。所有外观实时预览并自动保存，画像尺寸保持不变，未选中卡不运行底部效果。
+- 隐藏右上重复品牌摘要，左上保留黄色完整模型名、品牌与标签，长名完整换行，移除下方重复角色名。
+
+94 项单元、163 项桌面检查（含实际 WPK 静动态切换、加载取消及共享状态）和 170 组原生解码向量通过；构建、v2 签名及 Android Lint（0 错误）通过。尚未完成安卓真机验收。
+
+[卡片外观](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.7/fashion-presentation-appearance.png) · [静态布局与长名字](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.7/fashion-presentation-static.png)
+
+公开图片使用生成的几何封面，未包含私有模型或原录屏。
 
 ## 0.3.6 更新
 
