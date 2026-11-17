@@ -1,8 +1,8 @@
 {
-  "version": "0.3.16",
-  "apk": "WPK-Viewer-0.3.16-debug.apk",
-  "bytes": 6125818,
-  "sha256": "6a52e30845041513631aa7810a62abc942ccf696c1c7372d1c4a6d9a706fb475",
+  "version": "0.3.17",
+  "apk": "WPK-Viewer-0.3.17-debug.apk",
+  "bytes": 6126070,
+  "sha256": "bb8e729149772b30d20107b6993d79a4540daafcd65813c1590604369825802d",
   "minimum_android": "8.0 / API 26",
   "target_api": 34,
   "apk_signature": "v2 verified",
@@ -12,23 +12,22 @@
     "warnings": 4
   },
   "configuration_tests": 107,
-  "desktop_checks": 78,
+  "desktop_checks": 57,
   "desktop_check_groups": {
+    "live-drag": 5,
     "live-forms": 6,
     "browser-smoke": 10,
-    "idle": 4,
     "hit-overlay": 6,
-    "render": 4,
     "autosave": 5,
     "preferences-state": 6,
     "performance": 7,
     "hidden-interaction": 5,
-    "board-recovery": 7,
-    "collection-runtime": 18
+    "board-recovery": 7
   },
   "test_scope": "Targeted playback compatibility regressions; no historical UI results reused",
   "apk_asset_source_equality": true,
-  "changed_assets_since_0_3_15": [
+  "compared_to_version": "0.3.16",
+  "changed_assets_since_previous": [
     "assets/backends.mjs",
     "assets/collection-view.mjs",
     "assets/frame-diagnostics.mjs"
