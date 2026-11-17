@@ -4,9 +4,20 @@
 
 ## 下载
 
-[下载 0.3.13 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.13/WPK-Viewer-0.3.13-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.13) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.13/TESTING.md)
+[下载 0.3.14 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.14/WPK-Viewer-0.3.14-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.14) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.14/TESTING.md)
 
 最低 Android 8.0，建议保持 Android System WebView 更新。覆盖安装保留已有模型、分类、看板和存档。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.3.14 更新
+
+- 品牌列表／品牌详情底部新增「品牌背景」，六款可实时预览、自动保存，关闭和重启后保留。
+- 保留经典炫彩（0.3.12）与棱镜暖光（0.3.13）的原背景文件，默认经典版，支持一键恢复并随时切回棱镜版。
+- 新增星海蓝金、曜金刻纹、极光紫晶、月银丝纹，均为本地静态矢量材质，配合各自细框、金属线条与阴影。
+- 应用于品牌图标卡片及编辑预览，保留当前高清图标、模型与看板配置；游戏图鉴及模型封面保持原材质，切换不重载播放器。
+
+104 项单元、183 项桌面检查与 170 组原生解码向量通过；构建、v2 签名与 Android Lint（0 错误、4 条既有警告）通过。未使用物理Android设备验收。
+
+[六款样式预览](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.14/brand-background-picker.png) · [经典版](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.14/brand-background-classic.png) · [棱镜版](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.14/brand-background-prism.png)
 
 ## 0.3.13 更新
 
