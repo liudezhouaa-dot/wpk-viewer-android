@@ -4,9 +4,21 @@
 
 ## 下载
 
-[下载 0.3.12 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.12/WPK-Viewer-0.3.12-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.12) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.12/TESTING.md)
+[下载 0.3.13 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.13/WPK-Viewer-0.3.13-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.13) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.13/TESTING.md)
 
 最低 Android 8.0，建议保持 Android System WebView 更新。覆盖安装保留已有模型、分类、看板和存档。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.3.13 更新
+
+- 发布当前工作区已有的品牌矢量图标、卡片材质与品牌模型卡样式更新，包含标签绶带、含义图标、阵营和完整时装名称显示。
+- 阵营支持单个／批量归档与模型搜索；长时装名采用当前工作区的自动缩小显示方式。
+- 时装库改用当前独立「动态」开关，下方保留五个工具图标；包含导航图标及文本框样式更新。
+
+100 项单元、176 项桌面检查与 170 组原生解码向量通过；构建、v2 签名与 Android Lint（0 错误、4 条既有警告）通过。未使用物理Android设备验收。
+
+[当前时装库布局](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.13/fashion-shop-initial.png) · [工具与独立动态开关](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.13/tools-selected-generated.png)
+
+公开预览仅使用生成的几何封面，未包含私有模型或用户原录屏。
 
 ## 0.3.12 更新
 
