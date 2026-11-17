@@ -4,9 +4,22 @@
 
 ## 下载
 
-[下载 0.3.10 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.10/WPK-Viewer-0.3.10-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.10) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.10/TESTING.md)
+[下载 0.3.11 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.11/WPK-Viewer-0.3.11-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.11) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.11/TESTING.md)
 
 最低 Android 8.0，建议保持 Android System WebView 更新。覆盖安装保留已有模型、分类、看板和存档。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.3.11 更新
+
+- 时装库左上移除导入时间和重复标签说明，保留实际品牌与完整模型名称。
+- 游戏图鉴与模型封面右上使用同一份游戏图标，自定义游戏图标也保持一致。
+- 新品、限时等标签仅在时装库封面显示；标签定义和模型分配继续保留。
+- 品牌与游戏封面图标仅在全角色库、品牌专属库和游戏专属库显示，两个全局开关独立控制；星级保留原独立开关。
+
+98 项单元、172 项桌面检查与 170 组原生解码向量通过；构建、v2 签名及 Android Lint（0 错误、4 条既有警告）通过。没有安卓真机验收。
+
+[时装库布局](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.11/fashion-shop-initial.png) · [封面标记设置](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.11/gallery-cover-settings.png)
+
+公开预览仅使用生成的几何封面，未包含私有模型或用户原录屏。
 
 ## 0.3.10 更新
 
