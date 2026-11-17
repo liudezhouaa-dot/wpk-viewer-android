@@ -1,8 +1,8 @@
 {
-  "version": "0.3.13",
-  "apk": "WPK-Viewer-0.3.13-debug.apk",
-  "bytes": 3849377,
-  "sha256": "ec5efbd8c0c4c1f92da9412a1a694dd0d6826313b62a67ec6e9f79311ff61f74",
+  "version": "0.3.14",
+  "apk": "WPK-Viewer-0.3.14-debug.apk",
+  "bytes": 3865061,
+  "sha256": "75494713b0fd8da40574947297266797fd2a30a632f9493bdffaf0b7a61719d1",
   "minimum_android": "8.0 / API 26",
   "target_api": 34,
   "apk_signature": "v2 verified",
@@ -11,13 +11,14 @@
     "errors": 0,
     "warnings": 4
   },
-  "configuration_tests": 100,
-  "desktop_checks": 176,
+  "configuration_tests": 104,
+  "desktop_checks": 183,
   "desktop_check_groups": {
     "collection_flow": 11,
-    "collection_runtime": 17,
+    "collection_runtime": 18,
     "collection_layout": 7,
     "android_bridge_mock": 5,
+    "brand_backgrounds": 6,
     "navigation_cleanup": 12,
     "cover_badges": 9,
     "fashion_shop": 9,
@@ -41,6 +42,9 @@
   },
   "native_decoding_mask_vectors": 170,
   "bundled_brand_emblems": 21,
+  "brand_background_materials": 6,
+  "brand_background_default": "classic",
+  "historical_brand_background_files_preserved": true,
   "reference_mark_definitions": {
     "labels": 2,
     "meaning_icons": 3
