@@ -4,9 +4,22 @@
 
 ## 下载
 
-[下载 0.3.14 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.14/WPK-Viewer-0.3.14-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.14) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.14/TESTING.md)
+[下载 0.3.15 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.15/WPK-Viewer-0.3.15-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.15) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.15/TESTING.md)
 
 最低 Android 8.0，建议保持 Android System WebView 更新。覆盖安装保留已有模型、分类、看板和存档。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.3.15 更新
+
+- 恢复时装库品牌标题下已分配标签的彩色图样、名称与含义，跟随模型和编辑更新；长文字可换行，导入时间继续隐藏。
+- 新增四幅原创艺术背景：鸢尾花窗（金线植物装饰）、水彩回廊（群青建筑与纸面晕染）、绯红叛调（红黑剪纸印刷）、色彩奏鸣（抽象色块与水粉肌理）。
+- 背景选择分为“艺术背景”和“经典材质”，保留六款历史材质与0.3.12／0.3.13原文件；已有选择保留，默认仍为经典炫彩，支持即时预览、自动保存与恢复。
+- 修正品牌详情旧底图遮挡新材质的问题，列表、详情与编辑预览保持一致；品牌图标、模型归属及播放状态保留，游戏图鉴与模型封面不受影响。
+
+105 项单元、184 项桌面检查与170组原生解码向量通过；构建、v2签名及Android Lint（0错误、4条既有警告）通过。没有物理Android设备验收。
+
+[四款艺术背景预览](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.15/brand-background-picker.png) · [恢复后的标签说明](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.15/fashion-shop-initial.png) · [艺术参考、素材及完整提示词](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.15/ART-DIRECTION.md)
+
+新背景使用内置图像生成工具独立制作，以静态WebP离线使用；未复制游戏官网角色或原背景。公开界面预览使用生成的几何封面，不含私有模型或用户原录屏。
 
 ## 0.3.14 更新
 
