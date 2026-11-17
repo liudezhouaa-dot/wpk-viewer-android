@@ -4,9 +4,21 @@
 
 ## 下载
 
-[下载 0.3.11 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.11/WPK-Viewer-0.3.11-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.11) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.11/TESTING.md)
+[下载 0.3.12 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.12/WPK-Viewer-0.3.12-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.12) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.12/TESTING.md)
 
 最低 Android 8.0，建议保持 Android System WebView 更新。覆盖安装保留已有模型、分类、看板和存档。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.3.12 更新
+
+- 游戏分类管理补上图标预览，与游戏图鉴和模型封面共用同一图标；替换后同步更新，已知游戏可恢复预置图标。
+- 窗口底部「恢复预置游戏」可手动找回误删类别，保留自定义游戏、ID和图标；正常重启不擅自恢复用户移除的类别。已被清空的模型归属需按需重新归档。
+- 角色详情统一保留右侧12个不同命令，删除顶部重复快捷键、查询和重复文本按钮、星级和加号快捷键；栏目标题不再充当按钮，星级与角色服装管理从「档案」进入。
+
+99 项单元、175 项桌面检查和 170 组原生解码向量通过；构建、v2 签名与 Android Lint（0 错误、4 条既有警告）通过。尚未使用安卓真机验收。
+
+[游戏分类管理预览](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.12/gallery-game-manager.png) · [角色详情预览](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.12/gallery-detail.png)
+
+公开预览仅使用生成的几何封面，未包含私有模型或用户原录屏。
 
 ## 0.3.11 更新
 
