@@ -4,9 +4,22 @@
 
 ## 下载
 
-[下载 0.3.17 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.17/WPK-Viewer-0.3.17-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.17) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.17/TESTING.md)
+[下载 0.3.18 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.18/WPK-Viewer-0.3.18-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.18) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.18/TESTING.md)
 
 最低 Android 8.0，建议保持 Android System WebView 更新。覆盖安装保留已有模型、分类、看板和存档。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.3.18 更新
+
+- 模型自带Choices改为靠近触点的独立操作面板。高雄“语音鉴赏”的七个原选项会执行模型原来的动作和语音。
+- 关闭文本或隐藏主页HUD后仍可触发；普通台词、文本样式和对话内选项仍保留原开关与位置。菜单点击不计作三连点恢复，点击／取消音效与反馈继续生效。
+- 支持关闭、外部点击、返回与Escape，紧凑／竖屏可滚动且限制在屏幕内。默认纯选项菜单可即时重开；原形态条件、语言和明确禁止打断的规则保留。
+- 双角色只操作触发菜单的模型，详情／动态时装预览也可使用，并避开可扩大的底部卡片栏。支持保存恢复和旧版文本框菜单迁移。
+
+110项单元、92项桌面专项检查通过；构建、同证书v2签名及Android Lint（0错误、4条既有警告）通过。检查覆盖原触点、实际音频、菜单开关／存档、双角色归属、预览避让及原形态／拖动修复。未使用物理Android设备验收。
+
+[菜单UI预览](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.18/model-menu-preview.png) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.18/TESTING.md) · [实际验证范围](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.18/validation.json)
+
+公开预览只截取菜单UI，所有原模型与背景层已隐藏，无私有模型或原录屏。
 
 ## 0.3.17 更新
 
