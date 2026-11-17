@@ -4,9 +4,19 @@
 
 ## 下载
 
-[下载 0.3.15 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.15/WPK-Viewer-0.3.15-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.15) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.15/TESTING.md)
+[下载 0.3.16 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.16/WPK-Viewer-0.3.16-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.16) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.16/TESTING.md)
 
 最低 Android 8.0，建议保持 Android System WebView 更新。覆盖安装保留已有模型、分类、看板和存档。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.3.16 更新
+
+- 修复高雄等部分Live2D模型切换形态后持续黑屏。动作文件中穿插的曲线目标使后续关闭转场黑幕的参数被跳过，现于加载时对副本按目标类型稳定分组。
+- 保留曲线数值、时间、同类顺序、原事件和原WPK；不强行隐藏图层，不对某个模型写死例外，无需重导模型。
+- 已验证实际左侧触点、反复形态切换、待机衔接、位置与缩放保持、正常存档及旧版黑屏播放存档恢复；原界面、贴图及艺术背景保留。
+
+107项单元、78项播放相关桌面检查通过；构建、同证书v2签名及Android Lint（0错误、4条既有警告）通过。本次只报告实际运行的专项回归，没有沿用上一版全部界面检查数量。没有物理Android设备验收。
+
+[手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.16/TESTING.md) · [实际验证范围](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.16/validation.json)
 
 ## 0.3.15 更新
 
