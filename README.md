@@ -4,9 +4,19 @@
 
 ## 下载
 
-[下载 0.3.16 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.16/WPK-Viewer-0.3.16-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.16) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.16/TESTING.md)
+[下载 0.3.17 APK](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.17/WPK-Viewer-0.3.17-debug.apk) · [发布页面](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/tag/v0.3.17) · [手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.17/TESTING.md)
 
 最低 Android 8.0，建议保持 Android System WebView 更新。覆盖安装保留已有模型、分类、看板和存档。当前为 debug 测试包，尚未完成安卓真机验收。
+
+## 0.3.17 更新
+
+- 修正Live2D拖动／锁定参数的写入时序：在动作更新后、物理计算前补回当前输入，让布料物理与网格读取同一帧的拖动值。
+- 修复前，裙子和丝袜控制器虽已随手指变化，物理仍读到待机值0；现五个控制器逐帧一致，原裙子／丝袜物理输出正常响应。
+- 保留原参数范围、因子、轴向、模型定义的500毫秒松手过渡及存档；不改物理文件或算法，不增加人为输入延迟，不降低贴图或渲染分辨率。0.3.16形态黑屏修复继续保留。
+
+107项单元、57项播放专项桌面检查通过；构建、同证书v2签名及Android Lint（0错误、4条既有警告）通过。检查包含真实指针拖动、五控制器在受控60／90／120步长下的物理输入与绘制参数、物理输出响应、松手过渡、保存恢复、隐藏UI与双看板。受控步长不代表手机实测帧率，没有物理Android设备验收。
+
+[手机复测步骤](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.17/TESTING.md) · [实际验证范围](https://github.com/liudezhouaa-dot/wpk-viewer-android/releases/download/v0.3.17/validation.json)
 
 ## 0.3.16 更新
 
